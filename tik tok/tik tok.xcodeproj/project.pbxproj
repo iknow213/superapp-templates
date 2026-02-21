@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077F2CA5F38609D0A948D5E7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D3A23BF9A391B6531ACCC /* ProfileView.swift */; };
+		102F6892F5B92A946E1BFE1F /* PlaceholderTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBF624977771D840FE51EC /* PlaceholderTabView.swift */; };
+		1BD56DC6D17DE02C49B0D14A /* VerticalPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAECFD52F8177751975A7D10 /* VerticalPager.swift */; };
+		1C988C723E4D411DEECD98F2 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B7E9CAA4B65A3A2F31295A /* VideoModel.swift */; };
+		33022A475C30B52655DBBBEB /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBC17ED8DB53DCC33E577F2 /* InboxView.swift */; };
+		40EC4F32333BC6454BEE552C /* SearchTickerBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5383FB727572620BA1CEA /* SearchTickerBar.swift */; };
+		58479AD66ECD617EEC0512BC /* HomeFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CDF60B411B8237CE9E097 /* HomeFeedView.swift */; };
+		901746C60FEF4B32990C1BBC /* TopNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B2628C9E732ACEF4B7653 /* TopNavBar.swift */; };
+		97B4E4EAEC9135FCB55CFC9E /* VideoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741147069809530BDE2D69EF /* VideoCardView.swift */; };
+		A4F156B8A258D4A7FAE05EA0 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FE7B8C0986CB1472DFCA6 /* FriendsView.swift */; };
+		AE4E33A6B6CB5C2D06788AB9 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3C0C91711A8A00B373278 /* CustomTabBar.swift */; };
+		B02E093E08751B4D66092B4C /* CaptionOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966EE853A6570B841E3CBE28 /* CaptionOverlay.swift */; };
+		B1889D2F5A0E9FB9A0CA6DD9 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9627D8562EE5CBAD01F08A /* MainTabView.swift */; };
+		C3014FD019018099C9116722 /* ActionSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1BFE63694B925F33FF54FF /* ActionSidebar.swift */; };
+		D8B5EBCC3C0B04FF07B1D4E6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D94D46A74F2D55B81C607FA /* ColorExtension.swift */; };
+		D99F5371807A15B3E730F46C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7BE55CF2A9652E73683525 /* Assets.xcassets */; };
+		E41FE9C3E9BD609187B2AA65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848DD7C322209E240F518E4A /* LaunchScreen.storyboard */; };
+		F8ABEFFAD06B63D509EBB26A /* BuildDesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAA6F4A19AEE5D1142AC8F1 /* BuildDesignApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12B7E9CAA4B65A3A2F31295A /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		2D94D46A74F2D55B81C607FA /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		2E3D3A23BF9A391B6531ACCC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4FAA6F4A19AEE5D1142AC8F1 /* BuildDesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildDesignApp.swift; sourceTree = "<group>"; };
+		543CDF60B411B8237CE9E097 /* HomeFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedView.swift; sourceTree = "<group>"; };
+		5B1BFE63694B925F33FF54FF /* ActionSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSidebar.swift; sourceTree = "<group>"; };
+		5DBC17ED8DB53DCC33E577F2 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		63FBF624977771D840FE51EC /* PlaceholderTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTabView.swift; sourceTree = "<group>"; };
+		70A3C0C91711A8A00B373278 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		741147069809530BDE2D69EF /* VideoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCardView.swift; sourceTree = "<group>"; };
+		782BEA87674B86CA838793E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7F8B2628C9E732ACEF4B7653 /* TopNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavBar.swift; sourceTree = "<group>"; };
+		88D1E453D115DF235F5F1521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		966EE853A6570B841E3CBE28 /* CaptionOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionOverlay.swift; sourceTree = "<group>"; };
+		AAECFD52F8177751975A7D10 /* VerticalPager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalPager.swift; sourceTree = "<group>"; };
+		AE9627D8562EE5CBAD01F08A /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		BC1B6B42CF4DD8C17CE98D63 /* tik tok.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "tik tok.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44FE7B8C0986CB1472DFCA6 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		DEA5383FB727572620BA1CEA /* SearchTickerBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTickerBar.swift; sourceTree = "<group>"; };
+		FF7BE55CF2A9652E73683525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		418311C2439B0F60A74211DE /* tik tok */ = {
+			isa = PBXGroup;
+			children = (
+				FF7BE55CF2A9652E73683525 /* Assets.xcassets */,
+				782BEA87674B86CA838793E7 /* Info.plist */,
+				848DD7C322209E240F518E4A /* LaunchScreen.storyboard */,
+				A4FCBBAAA17173E7A3A49D02 /* App */,
+				CD32E661A519A7D91A5621C4 /* Models */,
+				68815C880F832551799D22A9 /* Utilities */,
+				5F687016317131562C93A90A /* Views */,
+			);
+			path = "tik tok";
+			sourceTree = "<group>";
+		};
+		5F687016317131562C93A90A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B1BFE63694B925F33FF54FF /* ActionSidebar.swift */,
+				966EE853A6570B841E3CBE28 /* CaptionOverlay.swift */,
+				70A3C0C91711A8A00B373278 /* CustomTabBar.swift */,
+				D44FE7B8C0986CB1472DFCA6 /* FriendsView.swift */,
+				543CDF60B411B8237CE9E097 /* HomeFeedView.swift */,
+				5DBC17ED8DB53DCC33E577F2 /* InboxView.swift */,
+				AE9627D8562EE5CBAD01F08A /* MainTabView.swift */,
+				63FBF624977771D840FE51EC /* PlaceholderTabView.swift */,
+				2E3D3A23BF9A391B6531ACCC /* ProfileView.swift */,
+				DEA5383FB727572620BA1CEA /* SearchTickerBar.swift */,
+				7F8B2628C9E732ACEF4B7653 /* TopNavBar.swift */,
+				AAECFD52F8177751975A7D10 /* VerticalPager.swift */,
+				741147069809530BDE2D69EF /* VideoCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		68815C880F832551799D22A9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2D94D46A74F2D55B81C607FA /* ColorExtension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A4FCBBAAA17173E7A3A49D02 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4FAA6F4A19AEE5D1142AC8F1 /* BuildDesignApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B90678F2524880D20E7652F2 = {
+			isa = PBXGroup;
+			children = (
+				418311C2439B0F60A74211DE /* tik tok */,
+				E1E67CFAC0EA278E0409FF25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD32E661A519A7D91A5621C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12B7E9CAA4B65A3A2F31295A /* VideoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E1E67CFAC0EA278E0409FF25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC1B6B42CF4DD8C17CE98D63 /* tik tok.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B7799537062A8936466A0B6 /* tik tok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B985F994D02FEA3804AAD0 /* Build configuration list for PBXNativeTarget "tik tok" */;
+			buildPhases = (
+				040C06F53960619D4BBBE557 /* Sources */,
+				F1695B25F0871ABA97D77AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tik tok";
+			packageProductDependencies = (
+			);
+			productName = "tik tok";
+			productReference = BC1B6B42CF4DD8C17CE98D63 /* tik tok.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2927FED2B2F9C5202A455A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 6D86621FEC532100CF6CC0A8 /* Build configuration list for PBXProject "tik tok" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B90678F2524880D20E7652F2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B7799537062A8936466A0B6 /* tik tok */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1695B25F0871ABA97D77AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99F5371807A15B3E730F46C /* Assets.xcassets in Resources */,
+				E41FE9C3E9BD609187B2AA65 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040C06F53960619D4BBBE557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3014FD019018099C9116722 /* ActionSidebar.swift in Sources */,
+				F8ABEFFAD06B63D509EBB26A /* BuildDesignApp.swift in Sources */,
+				B02E093E08751B4D66092B4C /* CaptionOverlay.swift in Sources */,
+				D8B5EBCC3C0B04FF07B1D4E6 /* ColorExtension.swift in Sources */,
+				AE4E33A6B6CB5C2D06788AB9 /* CustomTabBar.swift in Sources */,
+				A4F156B8A258D4A7FAE05EA0 /* FriendsView.swift in Sources */,
+				58479AD66ECD617EEC0512BC /* HomeFeedView.swift in Sources */,
+				33022A475C30B52655DBBBEB /* InboxView.swift in Sources */,
+				B1889D2F5A0E9FB9A0CA6DD9 /* MainTabView.swift in Sources */,
+				102F6892F5B92A946E1BFE1F /* PlaceholderTabView.swift in Sources */,
+				077F2CA5F38609D0A948D5E7 /* ProfileView.swift in Sources */,
+				40EC4F32333BC6454BEE552C /* SearchTickerBar.swift in Sources */,
+				901746C60FEF4B32990C1BBC /* TopNavBar.swift in Sources */,
+				1BD56DC6D17DE02C49B0D14A /* VerticalPager.swift in Sources */,
+				97B4E4EAEC9135FCB55CFC9E /* VideoCardView.swift in Sources */,
+				1C988C723E4D411DEECD98F2 /* VideoModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		848DD7C322209E240F518E4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88D1E453D115DF235F5F1521 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D8E63C2A5B910E13F198A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.tiktok;
+				PRODUCT_NAME = "tik tok";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		29579C1700076F543FCBA4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tik tok/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		AB4E6D5B13A94D3BDBBA48C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tik tok/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		B40C1302E1B433B856F41BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.tiktok;
+				PRODUCT_NAME = "tik tok";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D86621FEC532100CF6CC0A8 /* Build configuration list for PBXProject "tik tok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D8E63C2A5B910E13F198A0C /* Debug */,
+				B40C1302E1B433B856F41BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		94B985F994D02FEA3804AAD0 /* Build configuration list for PBXNativeTarget "tik tok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4E6D5B13A94D3BDBBA48C0 /* Debug */,
+				29579C1700076F543FCBA4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2927FED2B2F9C5202A455A9 /* Project object */;
+}

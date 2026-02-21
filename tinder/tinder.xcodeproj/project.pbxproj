@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D9432996A02388D4D27A70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B75D4FE2A8EA6E6514A293A /* Assets.xcassets */; };
+		16692F7ABD20AFF213D21AB4 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3383B96EDF95E9BE290E7D3E /* Match.swift */; };
+		16FE221EF999A01FDF42B817 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB24ED7D8F31F43F9D2AD29 /* ExploreView.swift */; };
+		21490ECDE96281DE6E4F2CEC /* LikesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E87ED651788B924404DD214 /* LikesGridView.swift */; };
+		253A2F678AE4B797B27B4593 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB15A837753337C2E8AA1E1 /* MessagesView.swift */; };
+		27B06B70805209817136BC32 /* BuildSyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A441996386B0DD406343C431 /* BuildSyncApp.swift */; };
+		28F47AF1DDB6F4C280C252A5 /* GoldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887CEA7BAE28344C019843CA /* GoldView.swift */; };
+		36806AAAC5246BAFAF42B893 /* BoostSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604C0BD3B341026295A3E456 /* BoostSectionView.swift */; };
+		37AFD81237A3BC4A00BD38EB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907F614B181041DAD09A436 /* ProfileView.swift */; };
+		4602E7904A727547E734894F /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013DE38E343658D8AE93833 /* ChatView.swift */; };
+		484F4282A6B2FB7A3FB5D04B /* DiscoverHeaderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3678D0ED4135C46F40B0A /* DiscoverHeaderBar.swift */; };
+		4856982F3F93AE39440CEF5D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB5F4FB8BDCAC75995315C /* Profile.swift */; };
+		6061D5BFB7594113AE3A9FF4 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B11647A7013240F0622884 /* DiscoverView.swift */; };
+		6F7EF6DFB488A9F37A1779F8 /* ExploreFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052E03CAD1F93EEDD699F380 /* ExploreFilterBar.swift */; };
+		7A9B62D8378EAD423941ADDF /* GoldModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789442E2C5BD5FB285D64DC3 /* GoldModels.swift */; };
+		7AB189095D2EC8906CE3A68C /* ExploreModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A2178138335802CC9EE7C /* ExploreModels.swift */; };
+		7C07BE3335AA3746494591A8 /* EditProfileSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488254105187CC3C1876C057 /* EditProfileSheet.swift */; };
+		909728FE466BAEE056054B9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4EF59A4398CFA2BE1B05E7 /* LaunchScreen.storyboard */; };
+		9AE61D2E4B1C27B7596AACF5 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD3510A62EAB9946F81D68 /* MainTabView.swift */; };
+		9B52A46F1DF1E12508765103 /* CardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205270D1F32D6314CAD332C1 /* CardContent.swift */; };
+		9CBAA791276E1B9970BAF91B /* PreferencesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F783D6B3FBACCB2D70D9438 /* PreferencesSection.swift */; };
+		A365A64FBCA301B1720BA56B /* ExploreCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF369577AAEBB5EC329CB8A2 /* ExploreCardView.swift */; };
+		A7A331423DE1D6A9313978D2 /* DiscoverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0006EB7F7CB230DEAC26C54A /* DiscoverViewModel.swift */; };
+		BA7D5BE20633F72E113450B0 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819010DD484E2D13D07364C9 /* UserProfile.swift */; };
+		D33E59F07CDC78AFB8E04F75 /* SwipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219DE134F2E7FAD78013188 /* SwipeCardView.swift */; };
+		E978D9133BB0B90579C6D973 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D272F3793C1F9DA20B3978E /* AppState.swift */; };
+		EAFC2D6EAF380E9F99E76098 /* ActionButtonsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8494BF62E3BB807DB20FE52 /* ActionButtonsBar.swift */; };
+		F018194645717A34BD65BC98 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18FA6A10B082F251C878B69 /* EmptyStateView.swift */; };
+		F39A03949C1E8A8A2949DFC4 /* PhotoGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07117F0408C2A3E158AFFD6 /* PhotoGridView.swift */; };
+		FFE87DFF9294326F0A988C98 /* GoldPaywallSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD64BD507E66E258E82EDF2 /* GoldPaywallSheet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0006EB7F7CB230DEAC26C54A /* DiscoverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewModel.swift; sourceTree = "<group>"; };
+		052E03CAD1F93EEDD699F380 /* ExploreFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreFilterBar.swift; sourceTree = "<group>"; };
+		11CD3510A62EAB9946F81D68 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		205270D1F32D6314CAD332C1 /* CardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContent.swift; sourceTree = "<group>"; };
+		2907F614B181041DAD09A436 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2B75D4FE2A8EA6E6514A293A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D9A2178138335802CC9EE7C /* ExploreModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreModels.swift; sourceTree = "<group>"; };
+		2E87ED651788B924404DD214 /* LikesGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesGridView.swift; sourceTree = "<group>"; };
+		3383B96EDF95E9BE290E7D3E /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		488254105187CC3C1876C057 /* EditProfileSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileSheet.swift; sourceTree = "<group>"; };
+		4CD64BD507E66E258E82EDF2 /* GoldPaywallSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldPaywallSheet.swift; sourceTree = "<group>"; };
+		5F783D6B3FBACCB2D70D9438 /* PreferencesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesSection.swift; sourceTree = "<group>"; };
+		604C0BD3B341026295A3E456 /* BoostSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoostSectionView.swift; sourceTree = "<group>"; };
+		789442E2C5BD5FB285D64DC3 /* GoldModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldModels.swift; sourceTree = "<group>"; };
+		7DB24ED7D8F31F43F9D2AD29 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		819010DD484E2D13D07364C9 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		86B11647A7013240F0622884 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		87D3678D0ED4135C46F40B0A /* DiscoverHeaderBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverHeaderBar.swift; sourceTree = "<group>"; };
+		887CEA7BAE28344C019843CA /* GoldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldView.swift; sourceTree = "<group>"; };
+		8C176567523984A19E236DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B26B8B65094B8ADC97E0DD6 /* tinder.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D272F3793C1F9DA20B3978E /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A441996386B0DD406343C431 /* BuildSyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildSyncApp.swift; sourceTree = "<group>"; };
+		C18FA6A10B082F251C878B69 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		C8494BF62E3BB807DB20FE52 /* ActionButtonsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonsBar.swift; sourceTree = "<group>"; };
+		D71042C07A06B3C9E7B062DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E013DE38E343658D8AE93833 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		E219DE134F2E7FAD78013188 /* SwipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCardView.swift; sourceTree = "<group>"; };
+		EBFB5F4FB8BDCAC75995315C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		F07117F0408C2A3E158AFFD6 /* PhotoGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridView.swift; sourceTree = "<group>"; };
+		FF369577AAEBB5EC329CB8A2 /* ExploreCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCardView.swift; sourceTree = "<group>"; };
+		FFB15A837753337C2E8AA1E1 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4D34AD410DAEAE1A9A0CD8FE /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				E013DE38E343658D8AE93833 /* ChatView.swift */,
+				FFB15A837753337C2E8AA1E1 /* MessagesView.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		4D6CDA59AE55D839AAC34F6A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3383B96EDF95E9BE290E7D3E /* Match.swift */,
+				EBFB5F4FB8BDCAC75995315C /* Profile.swift */,
+				819010DD484E2D13D07364C9 /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5D9D4C3EC738748E6A2A7299 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				488254105187CC3C1876C057 /* EditProfileSheet.swift */,
+				F07117F0408C2A3E158AFFD6 /* PhotoGridView.swift */,
+				5F783D6B3FBACCB2D70D9438 /* PreferencesSection.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5E665E8C63B9F594E4056B24 /* Placeholder */ = {
+			isa = PBXGroup;
+			children = (
+				2907F614B181041DAD09A436 /* ProfileView.swift */,
+			);
+			path = Placeholder;
+			sourceTree = "<group>";
+		};
+		62F2169E93E0B24F19C4248C /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				C8494BF62E3BB807DB20FE52 /* ActionButtonsBar.swift */,
+				205270D1F32D6314CAD332C1 /* CardContent.swift */,
+				87D3678D0ED4135C46F40B0A /* DiscoverHeaderBar.swift */,
+				86B11647A7013240F0622884 /* DiscoverView.swift */,
+				0006EB7F7CB230DEAC26C54A /* DiscoverViewModel.swift */,
+				C18FA6A10B082F251C878B69 /* EmptyStateView.swift */,
+				E219DE134F2E7FAD78013188 /* SwipeCardView.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		72F935131B8EC02F88C4F418 /* Gold */ = {
+			isa = PBXGroup;
+			children = (
+				604C0BD3B341026295A3E456 /* BoostSectionView.swift */,
+				789442E2C5BD5FB285D64DC3 /* GoldModels.swift */,
+				4CD64BD507E66E258E82EDF2 /* GoldPaywallSheet.swift */,
+				887CEA7BAE28344C019843CA /* GoldView.swift */,
+				2E87ED651788B924404DD214 /* LikesGridView.swift */,
+			);
+			path = Gold;
+			sourceTree = "<group>";
+		};
+		7B0E3A6A9F770EC81EA46534 = {
+			isa = PBXGroup;
+			children = (
+				AE7EDC9ADF8167B08C7CC375 /* tinder */,
+				A3C48192CD38F0383CD7E070 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3C48192CD38F0383CD7E070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B26B8B65094B8ADC97E0DD6 /* tinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A69E5F3F15D138A1A379DBC2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9D272F3793C1F9DA20B3978E /* AppState.swift */,
+				A441996386B0DD406343C431 /* BuildSyncApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AE7EDC9ADF8167B08C7CC375 /* tinder */ = {
+			isa = PBXGroup;
+			children = (
+				2B75D4FE2A8EA6E6514A293A /* Assets.xcassets */,
+				D71042C07A06B3C9E7B062DD /* Info.plist */,
+				8A4EF59A4398CFA2BE1B05E7 /* LaunchScreen.storyboard */,
+				A69E5F3F15D138A1A379DBC2 /* App */,
+				4D6CDA59AE55D839AAC34F6A /* Models */,
+				B823DF8DD88E0C4949340F66 /* Views */,
+			);
+			path = tinder;
+			sourceTree = "<group>";
+		};
+		AEA6C98D79C3EF2D8F3EA75B /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				FF369577AAEBB5EC329CB8A2 /* ExploreCardView.swift */,
+				052E03CAD1F93EEDD699F380 /* ExploreFilterBar.swift */,
+				2D9A2178138335802CC9EE7C /* ExploreModels.swift */,
+				7DB24ED7D8F31F43F9D2AD29 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		B823DF8DD88E0C4949340F66 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11CD3510A62EAB9946F81D68 /* MainTabView.swift */,
+				62F2169E93E0B24F19C4248C /* Discover */,
+				AEA6C98D79C3EF2D8F3EA75B /* Explore */,
+				72F935131B8EC02F88C4F418 /* Gold */,
+				4D34AD410DAEAE1A9A0CD8FE /* Messages */,
+				5E665E8C63B9F594E4056B24 /* Placeholder */,
+				5D9D4C3EC738748E6A2A7299 /* Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01E340B7558A4E4511AF7204 /* tinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF72AE04B7D110ED956F0C2 /* Build configuration list for PBXNativeTarget "tinder" */;
+			buildPhases = (
+				9904FEDF5959719F9C2A1813 /* Sources */,
+				9CD97DA61071F77548B3CA15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tinder;
+			packageProductDependencies = (
+			);
+			productName = tinder;
+			productReference = 9B26B8B65094B8ADC97E0DD6 /* tinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96B2C705898FCBB957C8CA86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 27919E1D8BEA49B89ADF5FEF /* Build configuration list for PBXProject "tinder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7B0E3A6A9F770EC81EA46534;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01E340B7558A4E4511AF7204 /* tinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CD97DA61071F77548B3CA15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9432996A02388D4D27A70B /* Assets.xcassets in Resources */,
+				909728FE466BAEE056054B9C /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9904FEDF5959719F9C2A1813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFC2D6EAF380E9F99E76098 /* ActionButtonsBar.swift in Sources */,
+				E978D9133BB0B90579C6D973 /* AppState.swift in Sources */,
+				36806AAAC5246BAFAF42B893 /* BoostSectionView.swift in Sources */,
+				27B06B70805209817136BC32 /* BuildSyncApp.swift in Sources */,
+				9B52A46F1DF1E12508765103 /* CardContent.swift in Sources */,
+				4602E7904A727547E734894F /* ChatView.swift in Sources */,
+				484F4282A6B2FB7A3FB5D04B /* DiscoverHeaderBar.swift in Sources */,
+				6061D5BFB7594113AE3A9FF4 /* DiscoverView.swift in Sources */,
+				A7A331423DE1D6A9313978D2 /* DiscoverViewModel.swift in Sources */,
+				7C07BE3335AA3746494591A8 /* EditProfileSheet.swift in Sources */,
+				F018194645717A34BD65BC98 /* EmptyStateView.swift in Sources */,
+				A365A64FBCA301B1720BA56B /* ExploreCardView.swift in Sources */,
+				6F7EF6DFB488A9F37A1779F8 /* ExploreFilterBar.swift in Sources */,
+				7AB189095D2EC8906CE3A68C /* ExploreModels.swift in Sources */,
+				16FE221EF999A01FDF42B817 /* ExploreView.swift in Sources */,
+				7A9B62D8378EAD423941ADDF /* GoldModels.swift in Sources */,
+				FFE87DFF9294326F0A988C98 /* GoldPaywallSheet.swift in Sources */,
+				28F47AF1DDB6F4C280C252A5 /* GoldView.swift in Sources */,
+				21490ECDE96281DE6E4F2CEC /* LikesGridView.swift in Sources */,
+				9AE61D2E4B1C27B7596AACF5 /* MainTabView.swift in Sources */,
+				16692F7ABD20AFF213D21AB4 /* Match.swift in Sources */,
+				253A2F678AE4B797B27B4593 /* MessagesView.swift in Sources */,
+				F39A03949C1E8A8A2949DFC4 /* PhotoGridView.swift in Sources */,
+				9CBAA791276E1B9970BAF91B /* PreferencesSection.swift in Sources */,
+				4856982F3F93AE39440CEF5D /* Profile.swift in Sources */,
+				37AFD81237A3BC4A00BD38EB /* ProfileView.swift in Sources */,
+				D33E59F07CDC78AFB8E04F75 /* SwipeCardView.swift in Sources */,
+				BA7D5BE20633F72E113450B0 /* UserProfile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A4EF59A4398CFA2BE1B05E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C176567523984A19E236DF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09E752D775116B584A882723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		58D4758B14BFFB84C0458AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.tinder;
+				PRODUCT_NAME = tinder;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		689D82CEB5705B9C0CB27DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.tinder;
+				PRODUCT_NAME = tinder;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A6F5E483DD2A9A7AEE4A6017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27919E1D8BEA49B89ADF5FEF /* Build configuration list for PBXProject "tinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689D82CEB5705B9C0CB27DAA /* Debug */,
+				58D4758B14BFFB84C0458AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DEF72AE04B7D110ED956F0C2 /* Build configuration list for PBXNativeTarget "tinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F5E483DD2A9A7AEE4A6017 /* Debug */,
+				09E752D775116B584A882723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96B2C705898FCBB957C8CA86 /* Project object */;
+}
